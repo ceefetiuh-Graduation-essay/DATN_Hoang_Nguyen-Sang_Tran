@@ -1,0 +1,3 @@
+Removed Pin From Net: NetName=5V Pin=H2-1
+Added Pin To Net: NetName=4V3-LOAD Pin=H2-1
+Added Room: Name=layout_test_slave1a

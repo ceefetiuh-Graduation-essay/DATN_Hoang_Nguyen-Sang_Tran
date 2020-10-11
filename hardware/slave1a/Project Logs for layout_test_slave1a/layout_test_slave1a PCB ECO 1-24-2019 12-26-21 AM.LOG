@@ -1,0 +1,10 @@
+Added Component: Designator=C5(JP4-C2C)
+Added Pin To Net: NetName=3V3 Pin=C5-1
+Added Pin To Net: NetName=CSN Pin=C5-2
+Added Pin To Net: NetName=MOSI Pin=C5-3
+Added Pin To Net: NetName=MISO Pin=C5-5
+Added Pin To Net: NetName=SCK Pin=C5-6
+Added Pin To Net: NetName=CE Pin=C5-7
+Added Pin To Net: NetName=GND Pin=C5-8
+Added Member To Class: ClassName=layout_test_slave1a Member=Component C5 NRF224L01
+Added Room: Name=layout_test_slave1a

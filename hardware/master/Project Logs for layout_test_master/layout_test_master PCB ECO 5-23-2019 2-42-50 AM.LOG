@@ -1,0 +1,31 @@
+Removed Pin From Net: NetName=3V3 Pin=RF 2.4GHZ-1
+Removed Pin From Net: NetName=GND Pin=RF 2.4GHZ-8
+Removed Pin From Net: NetName=3V3 Pin=U1-4
+Change Component DesignItemId : Designator=RF 2.4GHZ Old DesignItemId=JP4x2 New DesignItemId=NRF24L01
+Change Component Footprint: Designator=RF 2.4GHZ Old Footprint=JP4-C2C New Footprint=NRF24L01A
+Change Component Comment : Designator=TP3 Old Comment=3V3 New Comment=TP
+Change Component Comment : Designator=TP1 Old Comment=3V-30V New Comment=TP
+Change Component Comment : Designator=TP2 Old Comment=5V New Comment=TP
+Change Component Comment : Designator=P1 Old Comment=INPUT 3-30V New Comment=Header 2 - M
+Change Component Comment : Designator=LCD+I2C Old Comment=LCD 20X4 New Comment=*LCD+I2C
+Change Component Comment : Designator=RF 2.4GHZ Old Comment=NRF224L01 New Comment=NRF24L01
+Change Component Designator: OldDesignator=3V-30V(3A) NewDesignator=*1
+Change Component Designator: OldDesignator=LCD+I2C NewDesignator=*LCD+I1
+Added Pin To Net: NetName=GND Pin=RF 2.4GHZ-1
+Added Pin To Net: NetName=3V3 Pin=RF 2.4GHZ-8
+Added Pin To Net: NetName=NetNodeMCU-1_D4 Pin=NodeMCU-1-D4
+Added Pin To Net: NetName=NetNodeMCU-1_D4 Pin=RF 2.4GHZ-2
+Added Net: Name=NetNodeMCU-1_D4
+Added Pin To Net: NetName=NetNodeMCU-1_D5 Pin=NodeMCU-1-D5
+Added Pin To Net: NetName=NetNodeMCU-1_D5 Pin=RF 2.4GHZ-3
+Added Net: Name=NetNodeMCU-1_D5
+Added Pin To Net: NetName=NetNodeMCU-1_D6 Pin=NodeMCU-1-D6
+Added Pin To Net: NetName=NetNodeMCU-1_D6 Pin=RF 2.4GHZ-4
+Added Net: Name=NetNodeMCU-1_D6
+Added Pin To Net: NetName=NetNodeMCU-1_D7 Pin=NodeMCU-1-D7
+Added Pin To Net: NetName=NetNodeMCU-1_D7 Pin=RF 2.4GHZ-6
+Added Net: Name=NetNodeMCU-1_D7
+Added Pin To Net: NetName=NetNodeMCU-1_D8 Pin=NodeMCU-1-D8
+Added Pin To Net: NetName=NetNodeMCU-1_D8 Pin=RF 2.4GHZ-7
+Added Net: Name=NetNodeMCU-1_D8
+Added Room: Name=layout_test_master

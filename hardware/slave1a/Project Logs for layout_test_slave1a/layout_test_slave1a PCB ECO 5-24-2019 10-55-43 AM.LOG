@@ -1,0 +1,5 @@
+Removed Pin From Net: NetName=3V3 Pin=H1-1
+Added Pin To Net: NetName=3V3_MCU Pin=BOARD1-20
+Added Pin To Net: NetName=3V3_MCU Pin=H1-1
+Added Net: Name=3V3_MCU
+Added Room: Name=layout_test_slave1a

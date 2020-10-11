@@ -1,0 +1,20 @@
+Removed Pin From Net: NetName=3V3 Pin=U1-4
+Change Component Comment : Designator=TP3 Old Comment=3V3 New Comment=TP
+Change Component Comment : Designator=TP1 Old Comment=3V-30V New Comment=TP
+Change Component Comment : Designator=TP2 Old Comment=5V New Comment=TP
+Change Component Comment : Designator=P1 Old Comment=INPUT 3-30V New Comment=Header 2 - M
+Change Component Comment : Designator=LCD+I2C Old Comment=LCD 20X4 New Comment=*LCD+I2C
+Change Component Designator: OldDesignator=3V-30V(3A) NewDesignator=*1
+Change Component Designator: OldDesignator=LCD+I2C NewDesignator=*LCD+I1
+Change Component Designator: OldDesignator=RF 2.4GHZ NewDesignator=C3
+Added Component: Designator=LED_power(LED-5-BLUE)
+Added Component: Designator=R1(R1/4W)
+Added Pin To Net: NetName=GND Pin=LED_power-2
+Added Pin To Net: NetName=Net*1_1 Pin=R1-2
+Added Pin To Net: NetName=NetLED_power_1 Pin=LED_power-1
+Added Pin To Net: NetName=NetLED_power_1 Pin=R1-1
+Added Net: Name=NetLED_power_1
+Added Member To Class: ClassName=layout_test_master Member=Component LED_power LED
+Added Member To Class: ClassName=layout_test_master Member=Component R1 1k
+Added Member To Class: ClassName=layout_test_master Member=Component TP2 TP
+Added Room: Name=layout_test_master

@@ -1,0 +1,4 @@
+Removed Pin From Net: NetName=3V3 Pin=U1-4
+Change Component Comment : Designator=P1 Old Comment=Header 2 - M New Comment=8-12V
+Change Component Comment : Designator=LED_power1 Old Comment=LED New Comment=LED_power
+Added Room: Name=layout_test_slave1a

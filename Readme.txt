@@ -1,0 +1,1 @@
+Trên dây là t?t c? các file nhóm làm d? tài bao g?m : Firmware, hardware và software

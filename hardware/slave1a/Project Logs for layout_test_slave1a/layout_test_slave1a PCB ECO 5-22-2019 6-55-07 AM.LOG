@@ -1,0 +1,54 @@
+Removed Pin From Net: NetName=GND Pin=C1-20
+Removed Pin From Net: NetName=4V3-LOAD Pin=C10-18
+Removed Pin From Net: NetName=GND Pin=C10-19
+Removed Pin From Net: NetName=GND Pin=D2-1
+Removed Pin From Net: NetName=3V3 Pin=D2-2
+Removed Pin From Net: NetName=NetC3_1 Pin=Q1-1
+Removed Pin From Net: NetName=5V Pin=Q1-3
+Removed Pin From Net: NetName=NetC3_1 Pin=R1-2
+Removed Pin From Net: NetName=GND Pin=TVS1-1
+Removed Pin From Net: NetName=NetC3_1 Pin=TVS1-2
+Removed Member From Class: ClassName=layout_test_slave1a Member=C1
+Removed Member From Class: ClassName=layout_test_slave1a Member=C10
+Removed Member From Class: ClassName=layout_test_slave1a Member=D2
+Removed Member From Class: ClassName=layout_test_slave1a Member=Q1
+Removed Member From Class: ClassName=layout_test_slave1a Member=R1
+Removed Member From Class: ClassName=layout_test_slave1a Member=TVS1
+Added Component: Designator=C14(SM-CAP-0805)
+Added Component: Designator=C15(CP1/2)
+Added Component: Designator=LED_power(LED-5-BLUE)
+Added Component: Designator=R11(R1/4W)
+Added Pin To Net: NetName=GND Pin=BOARD1-39
+Added Pin To Net: NetName=GND Pin=C14-1
+Added Pin To Net: NetName=3V3 Pin=C14-2
+Added Pin To Net: NetName=3V3 Pin=C15-1
+Added Pin To Net: NetName=GND Pin=C15-2
+Added Pin To Net: NetName=5V Pin=D1-1
+Added Pin To Net: NetName=NetC3_1 Pin=IC1-1
+Added Pin To Net: NetName=GND Pin=LED_power-2
+Added Pin To Net: NetName=5V Pin=Q2-1
+Added Pin To Net: NetName=5V Pin=R2-2
+Added Pin To Net: NetName=NetC3_1 Pin=R11-2
+Added Pin To Net: NetName=NetBOARD1_28 Pin=BOARD1-28
+Added Pin To Net: NetName=NetBOARD1_28 Pin=C5-2
+Added Net: Name=NetBOARD1_28
+Added Pin To Net: NetName=NetBOARD1_29 Pin=BOARD1-29
+Added Pin To Net: NetName=NetBOARD1_29 Pin=C5-7
+Added Net: Name=NetBOARD1_29
+Added Pin To Net: NetName=NetBOARD1_30 Pin=BOARD1-30
+Added Pin To Net: NetName=NetBOARD1_30 Pin=C5-6
+Added Net: Name=NetBOARD1_30
+Added Pin To Net: NetName=NetBOARD1_31 Pin=BOARD1-31
+Added Pin To Net: NetName=NetBOARD1_31 Pin=C5-5
+Added Net: Name=NetBOARD1_31
+Added Pin To Net: NetName=NetBOARD1_32 Pin=BOARD1-32
+Added Pin To Net: NetName=NetBOARD1_32 Pin=C5-3
+Added Net: Name=NetBOARD1_32
+Added Pin To Net: NetName=NetLED_power_1 Pin=LED_power-1
+Added Pin To Net: NetName=NetLED_power_1 Pin=R11-1
+Added Net: Name=NetLED_power_1
+Added Member To Class: ClassName=layout_test_slave1a Member=Component C14 104
+Added Member To Class: ClassName=layout_test_slave1a Member=Component C15 10uF
+Added Member To Class: ClassName=layout_test_slave1a Member=Component LED_power LED
+Added Member To Class: ClassName=layout_test_slave1a Member=Component R11 1k
+Added Room: Name=layout_test_slave1a

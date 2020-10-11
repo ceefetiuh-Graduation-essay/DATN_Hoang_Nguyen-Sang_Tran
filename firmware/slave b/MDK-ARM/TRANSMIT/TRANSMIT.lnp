@@ -1,0 +1,25 @@
+--cpu Cortex-M3
+"transmit\startup_stm32f103xb.o"
+"transmit\ctr_nrf24l01.o"
+"transmit\dwt_stm32_delay.o"
+"transmit\main.o"
+"transmit\stm32f1xx_it.o"
+"transmit\stm32f1xx_hal_msp.o"
+"transmit\stm32f1xx_hal_gpio_ex.o"
+"transmit\stm32f1xx_hal_tim.o"
+"transmit\stm32f1xx_hal_tim_ex.o"
+"transmit\stm32f1xx_hal_uart.o"
+"transmit\stm32f1xx_hal.o"
+"transmit\stm32f1xx_hal_rcc.o"
+"transmit\stm32f1xx_hal_rcc_ex.o"
+"transmit\stm32f1xx_hal_gpio.o"
+"transmit\stm32f1xx_hal_dma.o"
+"transmit\stm32f1xx_hal_cortex.o"
+"transmit\stm32f1xx_hal_pwr.o"
+"transmit\stm32f1xx_hal_flash.o"
+"transmit\stm32f1xx_hal_flash_ex.o"
+"transmit\system_stm32f1xx.o"
+--library_type=microlib --strict --scatter "TRANSMIT\TRANSMIT.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "TRANSMIT.map" -o TRANSMIT\TRANSMIT.axf

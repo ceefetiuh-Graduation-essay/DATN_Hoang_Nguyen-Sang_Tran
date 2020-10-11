@@ -1,0 +1,33 @@
+Removed Member From Class: ClassName=layout_test_slave1a Member=C14
+Change Component Designator: OldDesignator=C2 NewDesignator=C1
+Change Component Designator: OldDesignator=C3 NewDesignator=C2
+Change Component Designator: OldDesignator=C4 NewDesignator=C3
+Change Component Designator: OldDesignator=C5 NewDesignator=C4
+Change Component Designator: OldDesignator=C6 NewDesignator=C7
+Change Component Designator: OldDesignator=C7 NewDesignator=C8
+Change Component Designator: OldDesignator=C8 NewDesignator=C9
+Change Component Designator: OldDesignator=C9 NewDesignator=C10
+Change Component Designator: OldDesignator=C14 NewDesignator=C6
+Change Component Designator: OldDesignator=C15 NewDesignator=C5
+Change Component Designator: OldDesignator=LED_power NewDesignator=LED_power1
+Change Component Designator: OldDesignator=Q2 NewDesignator=Q1
+Change Component Designator: OldDesignator=R11 NewDesignator=R1
+Added Component: Designator=H1(HDR3)
+Added Component: Designator=H2(HDR3)
+Added Pin To Net: NetName=3V3 Pin=H1-1
+Added Pin To Net: NetName=GND Pin=H1-2
+Added Pin To Net: NetName=5V Pin=H2-1
+Added Pin To Net: NetName=GND Pin=H2-2
+Change Net Name : Old Net Name=NetC3_1 New Net Name=NetC2_1
+Change Net Name : Old Net Name=NetC6_1 New Net Name=NetC7_1
+Change Net Name : Old Net Name=NetLED_power_1 New Net Name=NetLED_power1_1
+Added Pin To Net: NetName=NetBOARD1_25 Pin=BOARD1-25
+Added Pin To Net: NetName=NetBOARD1_25 Pin=H2-3
+Added Net: Name=NetBOARD1_25
+Added Pin To Net: NetName=NetBOARD1_26 Pin=BOARD1-26
+Added Pin To Net: NetName=NetBOARD1_26 Pin=H1-3
+Added Net: Name=NetBOARD1_26
+Added Member To Class: ClassName=layout_test_slave1a Member=Component C10 104
+Added Member To Class: ClassName=layout_test_slave1a Member=Component H1 HUMINITY
+Added Member To Class: ClassName=layout_test_slave1a Member=Component H2 SOID
+Added Room: Name=layout_test_slave1a

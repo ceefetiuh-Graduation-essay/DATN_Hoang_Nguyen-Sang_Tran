@@ -1,0 +1,6 @@
+Change Component Comment : Designator=U1 Old Comment=MCP73832 New Comment=MCP73831T-3ACI/OT
+Change Component Comment : Designator=TP4 Old Comment=TP New Comment=3V3
+Change Component Comment : Designator=TP3 Old Comment=TP New Comment=4V2
+Change Component Comment : Designator=TP2 Old Comment=TP New Comment=5V
+Change Component Comment : Designator=TP1 Old Comment=TP New Comment=8-12V
+Added Room: Name=layout_test_slave1a

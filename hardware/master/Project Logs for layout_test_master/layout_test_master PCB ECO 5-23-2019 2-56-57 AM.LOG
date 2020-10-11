@@ -1,0 +1,16 @@
+Removed Pin From Net: NetName=3V3 Pin=U1-4
+Added Component: Designator=RF 2.4Ghz(NRF24L01A)
+Added Pin To Net: NetName=GND Pin=RF 2.4Ghz-1
+Added Pin To Net: NetName=NetC3_7 Pin=RF 2.4Ghz-2
+Added Pin To Net: NetName=NetC3_6 Pin=RF 2.4Ghz-3
+Added Pin To Net: NetName=NetC3_5 Pin=RF 2.4Ghz-4
+Added Pin To Net: NetName=NetC3_3 Pin=RF 2.4Ghz-6
+Added Pin To Net: NetName=NetC3_2 Pin=RF 2.4Ghz-7
+Added Pin To Net: NetName=3V3 Pin=RF 2.4Ghz-8
+Change Net Name : Old Net Name=NetC3_2 New Net Name=NetNodeMCU-1_D8
+Change Net Name : Old Net Name=NetC3_3 New Net Name=NetNodeMCU-1_D7
+Change Net Name : Old Net Name=NetC3_5 New Net Name=NetNodeMCU-1_D6
+Change Net Name : Old Net Name=NetC3_6 New Net Name=NetNodeMCU-1_D5
+Change Net Name : Old Net Name=NetC3_7 New Net Name=NetNodeMCU-1_D4
+Added Member To Class: ClassName=layout_test_master Member=Component RF 2.4Ghz NRF24L01
+Added Room: Name=layout_test_master

@@ -1,0 +1,125 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: µVision V5.25.2.0
+Copyright (C) 2018 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: sang tran, vtc, LIC=50D12-9LNX0-PGW7L-02K40-QC6LW-KNJ23
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Professional  Version: 5.25.2.0
+Toolchain Path:  C:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 6 (build 750)
+Assembler:       Armasm.exe V5.06 update 6 (build 750)
+Linker/Locator:  ArmLink.exe V5.06 update 6 (build 750)
+Library Manager: ArmAr.exe V5.06 update 6 (build 750)
+Hex Converter:   FromElf.exe V5.06 update 6 (build 750)
+CPU DLL:         SARMCM3.DLL V5.25.2.0
+Dialog DLL:      DCM.DLL V1.17.1.0
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V3.0.1.0
+Dialog DLL:      TCM.DLL V1.35.1.0
+ 
+<h2>Project:</h2>
+E:\doccument\my_subject\do an\CODE\STM\1\SLAVEa\11\MDK-ARM\DHT11.uvprojx
+Project File Date:  04/13/2019
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 6 (build 750)', folder: 'C:\Keil_v5\ARM\ARMCC\Bin'
+Build target 'DHT11'
+compiling dwt_stm32_delay.c...
+compiling CTR_nrf24l01.c...
+compiling main.c...
+../Src/main.c(168): warning:  #188-D: enumerated type mixed with another type
+  	HAL_GPIO_WritePin (GPIOA, GPIO_PIN_1, 0);   // pull the pin low
+../Src/main.c(170): warning:  #188-D: enumerated type mixed with another type
+  	HAL_GPIO_WritePin (GPIOA, GPIO_PIN_1, 1);   // pull the pin high
+../Src/main.c(277): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+  				HAL_UART_Transmit(&huart1,bat_bom,32,5);
+../Src/main.c(283): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+  				HAL_UART_Transmit(&huart1,tat_bom,32,5);
+../Src/main.c(290): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+  			HAL_UART_Transmit(&huart1,tat_bom,32,5);
+../Src/main.c(297): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+  		HAL_UART_Transmit(&huart1,tat_bom,32,5);
+../Src/main.c(307): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+  		HAL_UART_Transmit(&huart1,dong_mai,32,5);
+../Src/main.c(312): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+  		HAL_UART_Transmit(&huart1,mo_mai,32,5);
+../Src/main.c(391): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "const char *restrict"
+  				strncpy(chuoi_cat, chuoi+0, 5);//3 ki tu dau bi loi...lay tu vi tri 3 lay 6 ki tu
+../Src/main.c(396): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "const char *restrict"
+  				strncpy(min_c, chuoi+5, 2);//lay 2 ki tu tu vi tri 8
+../Src/main.c(397): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "const char *restrict"
+  				strncpy(max_c, chuoi+16, 2);//lay 2 ki tu tu vi tri 19
+../Src/main.c(398): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "const char *restrict"
+  				strncpy(min_h, chuoi+7, 2);//lay 2 ki tu tu vi tri 10
+../Src/main.c(399): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "const char *restrict"
+  				strncpy(max_h, chuoi+18, 2);//lay 2 ki tu tu vi tri 21
+../Src/main.c(400): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "const char *restrict"
+  				strncpy(min_s, chuoi+9, 2);//lay 2 ki tu tu vi tri 12
+../Src/main.c(401): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "const char *restrict"
+  				strncpy(max_s, chuoi+20, 2);//lay 2 ki tu tu vi tri 23
+../Src/main.c(423): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+  					HAL_UART_Transmit(&huart1,xuong_hang,32,5);//xem chuoi nhan duoc tren pc
+../Src/main.c(424): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+  					HAL_UART_Transmit(&huart1,chuoi_cat,32,5);//xem chuoi nhan duoc tren pc
+../Src/main.c(425): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+  					HAL_UART_Transmit(&huart1,xuong_hang,32,5);//xem chuoi nhan duoc tren pc
+../Src/main.c(439): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "uint8_t *"
+  					HAL_UART_Transmit(&huart1,nhiet_do_va_do_am,32,5);
+../Src/main.c(441): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
+  					CTR_nrfSendPacket(nhiet_do_va_do_am);
+../Src/main.c(451): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "const char *"
+  							int chuoi_ok = strcmp(chuoi, ok);
+../Src/main.c(458): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
+  								CTR_nrfSendPacket(check_ok);
+../Src/main.c: 22 warnings, 0 errors
+compiling stm32f1xx_it.c...
+compiling stm32f1xx_hal_msp.c...
+compiling stm32f1xx_hal_gpio_ex.c...
+compiling stm32f1xx_hal_tim.c...
+compiling stm32f1xx_hal_adc_ex.c...
+compiling stm32f1xx_hal_adc.c...
+compiling stm32f1xx_hal_tim_ex.c...
+compiling stm32f1xx_hal.c...
+compiling stm32f1xx_hal_uart.c...
+compiling stm32f1xx_hal_rcc_ex.c...
+compiling stm32f1xx_hal_rcc.c...
+compiling stm32f1xx_hal_gpio.c...
+compiling stm32f1xx_hal_cortex.c...
+compiling stm32f1xx_hal_dma.c...
+compiling stm32f1xx_hal_pwr.c...
+compiling stm32f1xx_hal_flash.c...
+compiling system_stm32f1xx.c...
+compiling stm32f1xx_hal_flash_ex.c...
+linking...
+Program Size: Code=10980 RO-data=356 RW-data=344 ZI-data=1672  
+FromELF: creating hex file...
+"TRANSMIT\TRANSMIT.axf" - 0 Error(s), 22 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.5.3.0.pack
+                ARM.CMSIS.5.3.0
+                CMSIS (Cortex Microcontroller Software Interface Standard)
+   * Component: CORE Version: 5.1.1
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.STM32F1xx_DFP.2.3.0.pack
+                Keil.STM32F1xx_DFP.2.3.0
+                STMicroelectronics STM32F1 Series Device Support, Drivers and Examples
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\_DHT11
+  C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include
+  C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:5.1.1
+Build Time Elapsed:  00:00:49
+</pre>
+</body>
+</html>

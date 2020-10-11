@@ -1,0 +1,9 @@
+Added Pin To Net: NetName=NetC1_1 Pin=NodeMCU-1-3V3
+Added Pin To Net: NetName=NetC1_1 Pin=NodeMCU-1-3V3
+Added Pin To Net: NetName=NetC1_1 Pin=NodeMCU-1-3V3
+Added Pin To Net: NetName=NetC1_10 Pin=NodeMCU-1-3V3
+Added Pin To Net: NetName=NetC1_10 Pin=NodeMCU-1-3V3
+Added Pin To Net: NetName=NetC1_10 Pin=NodeMCU-1-3V3
+Added Pin To Net: NetName=NetC10_2 Pin=NodeMCU-1-RSV
+Added Pin To Net: NetName=NetC10_2 Pin=NodeMCU-1-RSV
+Added Room: Name=layout_test_master

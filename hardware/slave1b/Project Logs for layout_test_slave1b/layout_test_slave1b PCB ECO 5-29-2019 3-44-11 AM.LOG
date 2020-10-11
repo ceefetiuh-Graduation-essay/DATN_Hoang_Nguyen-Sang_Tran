@@ -1,0 +1,122 @@
+Added Component: Designator=BOARD1(BOARD STM32F103C8T6 - duplicate)
+Added Component: Designator=C1(CP1/2.5)
+Added Component: Designator=C2(CP1/2.5)
+Added Component: Designator=C3(SM-CAP-0805)
+Added Component: Designator=C4(CP1/2)
+Added Component: Designator=C5(SM-CAP-0805)
+Added Component: Designator=C6(CP1/2)
+Added Component: Designator=C7(SM-CAP-0805)
+Added Component: Designator=C8(SM-CAP-0805)
+Added Component: Designator=C9(C025-025,040)
+Added Component: Designator=DB1(DIO-Bri 2A)
+Added Component: Designator=H1(Header2)
+Added Component: Designator=IC1(TO252-123)
+Added Component: Designator=LED_NRF1(LED-5-BLUE)
+Added Component: Designator=LED_power1(LED-5-BLUE)
+Added Component: Designator=LED_relay(LED-5-BLUE)
+Added Component: Designator=M1(NRF24L01)
+Added Component: Designator=MODULE1(MODULE RELAY 5V)
+Added Component: Designator=P1(Medium - Header 2)
+Added Component: Designator=R1(R1/4W)
+Added Component: Designator=R2(R1/4W)
+Added Component: Designator=R3(R1/4W)
+Added Component: Designator=R4(R1/4W)
+Added Component: Designator=TP1(TP1)
+Added Component: Designator=TP2(TP1)
+Added Component: Designator=TP3(TP1)
+Added Component: Designator=U1(SOT223)
+Added Pin To Net: NetName=3V3 Pin=C4-1
+Added Pin To Net: NetName=3V3 Pin=C5-2
+Added Pin To Net: NetName=3V3 Pin=C6-1
+Added Pin To Net: NetName=3V3 Pin=C8-2
+Added Pin To Net: NetName=3V3 Pin=M1-8
+Added Pin To Net: NetName=3V3 Pin=TP3-1
+Added Pin To Net: NetName=3V3 Pin=U1-2
+Added Net: Name=3V3
+Added Pin To Net: NetName=5V Pin=BOARD1-18
+Added Pin To Net: NetName=5V Pin=C1-1
+Added Pin To Net: NetName=5V Pin=C7-2
+Added Pin To Net: NetName=5V Pin=IC1-3
+Added Pin To Net: NetName=5V Pin=MODULE1-1
+Added Pin To Net: NetName=5V Pin=R4-2
+Added Pin To Net: NetName=5V Pin=TP2-1
+Added Pin To Net: NetName=5V Pin=U1-3
+Added Net: Name=5V
+Added Pin To Net: NetName=GND Pin=BOARD1-19
+Added Pin To Net: NetName=GND Pin=BOARD1-39
+Added Pin To Net: NetName=GND Pin=BOARD1-40
+Added Pin To Net: NetName=GND Pin=C1-2
+Added Pin To Net: NetName=GND Pin=C2-2
+Added Pin To Net: NetName=GND Pin=C3-1
+Added Pin To Net: NetName=GND Pin=C4-2
+Added Pin To Net: NetName=GND Pin=C5-1
+Added Pin To Net: NetName=GND Pin=C6-2
+Added Pin To Net: NetName=GND Pin=C7-1
+Added Pin To Net: NetName=GND Pin=C8-1
+Added Pin To Net: NetName=GND Pin=C9-1
+Added Pin To Net: NetName=GND Pin=C9-2
+Added Pin To Net: NetName=GND Pin=DB1-4
+Added Pin To Net: NetName=GND Pin=H1-1
+Added Pin To Net: NetName=GND Pin=IC1-2
+Added Pin To Net: NetName=GND Pin=LED_NRF1-2
+Added Pin To Net: NetName=GND Pin=LED_power1-2
+Added Pin To Net: NetName=GND Pin=LED_relay-2
+Added Pin To Net: NetName=GND Pin=M1-1
+Added Pin To Net: NetName=GND Pin=MODULE1-2
+Added Pin To Net: NetName=GND Pin=U1-1
+Added Net: Name=GND
+Added Pin To Net: NetName=NetBOARD1_1 Pin=BOARD1-1
+Added Pin To Net: NetName=NetBOARD1_1 Pin=R2-2
+Added Net: Name=NetBOARD1_1
+Added Pin To Net: NetName=NetBOARD1_25 Pin=BOARD1-25
+Added Net: Name=NetBOARD1_25
+Added Pin To Net: NetName=NetBOARD1_26 Pin=BOARD1-26
+Added Net: Name=NetBOARD1_26
+Added Pin To Net: NetName=NetBOARD1_28 Pin=BOARD1-28
+Added Pin To Net: NetName=NetBOARD1_28 Pin=M1-7
+Added Net: Name=NetBOARD1_28
+Added Pin To Net: NetName=NetBOARD1_29 Pin=BOARD1-29
+Added Pin To Net: NetName=NetBOARD1_29 Pin=M1-2
+Added Net: Name=NetBOARD1_29
+Added Pin To Net: NetName=NetBOARD1_30 Pin=BOARD1-30
+Added Pin To Net: NetName=NetBOARD1_30 Pin=M1-3
+Added Net: Name=NetBOARD1_30
+Added Pin To Net: NetName=NetBOARD1_31 Pin=BOARD1-31
+Added Pin To Net: NetName=NetBOARD1_31 Pin=M1-4
+Added Net: Name=NetBOARD1_31
+Added Pin To Net: NetName=NetBOARD1_32 Pin=BOARD1-32
+Added Pin To Net: NetName=NetBOARD1_32 Pin=M1-6
+Added Net: Name=NetBOARD1_32
+Added Pin To Net: NetName=NetBOARD1_34 Pin=BOARD1-34
+Added Pin To Net: NetName=NetBOARD1_34 Pin=H1-2
+Added Pin To Net: NetName=NetBOARD1_34 Pin=R4-1
+Added Net: Name=NetBOARD1_34
+Added Pin To Net: NetName=NetBOARD1_35 Pin=BOARD1-35
+Added Pin To Net: NetName=NetBOARD1_35 Pin=BOARD1-36
+Added Pin To Net: NetName=NetBOARD1_35 Pin=MODULE1-3
+Added Pin To Net: NetName=NetBOARD1_35 Pin=R3-2
+Added Net: Name=NetBOARD1_35
+Added Pin To Net: NetName=NetC2_1 Pin=C2-1
+Added Pin To Net: NetName=NetC2_1 Pin=C3-2
+Added Pin To Net: NetName=NetC2_1 Pin=DB1-1
+Added Pin To Net: NetName=NetC2_1 Pin=IC1-1
+Added Pin To Net: NetName=NetC2_1 Pin=R1-2
+Added Pin To Net: NetName=NetC2_1 Pin=TP1-1
+Added Net: Name=NetC2_1
+Added Pin To Net: NetName=NetDB1_2 Pin=DB1-2
+Added Pin To Net: NetName=NetDB1_2 Pin=P1-2
+Added Net: Name=NetDB1_2
+Added Pin To Net: NetName=NetDB1_3 Pin=DB1-3
+Added Pin To Net: NetName=NetDB1_3 Pin=P1-1
+Added Net: Name=NetDB1_3
+Added Pin To Net: NetName=NetLED_NRF1_1 Pin=LED_NRF1-1
+Added Pin To Net: NetName=NetLED_NRF1_1 Pin=R2-1
+Added Net: Name=NetLED_NRF1_1
+Added Pin To Net: NetName=NetLED_power1_1 Pin=LED_power1-1
+Added Pin To Net: NetName=NetLED_power1_1 Pin=R1-1
+Added Net: Name=NetLED_power1_1
+Added Pin To Net: NetName=NetLED_relay_1 Pin=LED_relay-1
+Added Pin To Net: NetName=NetLED_relay_1 Pin=R3-1
+Added Net: Name=NetLED_relay_1
+Added Class: Name=layout_test_slave1a
+Added Room: Name=layout_test_slave1a

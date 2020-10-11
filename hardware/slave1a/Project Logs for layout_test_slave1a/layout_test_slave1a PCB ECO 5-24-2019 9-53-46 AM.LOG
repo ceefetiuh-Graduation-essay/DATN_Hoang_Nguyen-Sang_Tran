@@ -1,0 +1,19 @@
+Removed Pin From Net: NetName=3V3 Pin=C4-1
+Removed Pin From Net: NetName=NetBOARD1_28 Pin=C4-2
+Removed Pin From Net: NetName=NetBOARD1_32 Pin=C4-3
+Removed Pin From Net: NetName=NetBOARD1_31 Pin=C4-5
+Removed Pin From Net: NetName=NetBOARD1_30 Pin=C4-6
+Removed Pin From Net: NetName=NetBOARD1_29 Pin=C4-7
+Removed Pin From Net: NetName=GND Pin=C4-8
+Removed Member From Class: ClassName=layout_test_slave1a Member=C4
+Change Component Comment : Designator=U1 Old Comment=MCP73832 New Comment=MCP73831T-3ACI/OT
+Added Component: Designator=M1(NRF24L01)
+Added Pin To Net: NetName=GND Pin=M1-1
+Added Pin To Net: NetName=NetBOARD1_29 Pin=M1-2
+Added Pin To Net: NetName=NetBOARD1_30 Pin=M1-3
+Added Pin To Net: NetName=NetBOARD1_31 Pin=M1-4
+Added Pin To Net: NetName=NetBOARD1_32 Pin=M1-6
+Added Pin To Net: NetName=NetBOARD1_28 Pin=M1-7
+Added Pin To Net: NetName=3V3 Pin=M1-8
+Added Member To Class: ClassName=layout_test_slave1a Member=Component M1 NRF24L01
+Added Room: Name=layout_test_slave1a
